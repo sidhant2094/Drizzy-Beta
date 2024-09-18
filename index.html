@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>DRIZZY</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./feature.css">
+    <link rel="stylesheet" href="./boxy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+     <!--nav code-->
+        
+     <!--<div class="apple">
+        <nav class="navbar">
+            <div class="nav-left">
+                <div class="logo">
+                    <img style="margin-top: 10px;" src="./assets/logo.png" alt="Logo">
+                </div>
+            </div>
+            
+                <ul style="margin-left: 1px;" class="nav-links">
+                    <li><img class="nettt" src="./assets/net.svg" alt="net logo"></li>
+                    <li class="en"><a style="font-size: 20px; margin-top: 5px;" href="#">En</a></li>
+                </ul>
+                <div class="nav-buttons">
+                    <img src="./assets/sign-in.svg" alt="sign-in">
+                    <img class="get-app" src="./assets/get-app.svg" alt="get-app">
+                </div>
+            </div>
+        </nav>
+        <div class="spain">
+            <img class="right-car-img" src="./assets/HeroCar.png" alt="HeroCar">
+            <div style="margin-left: 40px;" class="conti">
+                <h1 class="asia"> Drizzy</h1>
+                <h1 class="africa"> Driving Made Easy</h1>
+                <h1 class="russia"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                <img style="margin-left: 150px;" class="learnmoree" src="./assets/learn-more.png" alt="learn more">
+        </div>
+     </div>--> 
+
+     <div id="navbar">
+          
+            <img class="logoo"  src="./assets/logo.png"></a>
+            <div class="xpx">
+                <ul>
+                    <li style="margin-left: 120px;" class="contactus"><a style="color:black;text-decoration:none;" href="#">Contact Us</a> </li>
+                </ul>
+            </div>
+            <div class="pics">
+                
+                <a  href="#twoo"><img style="margin-left: -20px;" class="get-app" src="./assets/get-app.svg"></a>
+            </div>
+
+    
+         <div  class="conti">
+            <h1 class="asia"> Drizzy</h1>
+            <h1 class="africa"> Driving Made Easy</h1>
+            <h1 class="russia"> On a Mission to create Cult of Professional Drivers on Road.</h1>
+           <a href="#skilled1"><img style="margin-left: 5px;" class="learnmoree" src="./assets/learn-more.png" alt="learn more"></a>
+         </div>
+         <div class="spain">
+            <img class="right-car-img" src="./assets/HeroCar.png" alt="HeroCar">
+        </div>
+      
+     </div>
+     
+
+
+        <!--box-->
+
+        <div class="yellow">
+           
+
+
+
+                <b><p style="margin-top: 50px;" id="skilled1"> Features:</p></b> 
+             
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <img src="assets/screenshots/drizzy1-removebg-preview.png" style="width:100%">
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <img src="assets/screenshots/drizzy2-removebg-preview.png" style="width:100%">
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <img src="assets/screenshots/drizzy3-removebg-preview.png" style="width:100%">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img src="assets/screenshots/drizzy4-removebg-preview.png" style="width:100%">
+                      </div>
+
+                      <div class="mySlides fade">
+                        <img src="assets/screenshots/drizzy5-removebg-preview.png" style="width:100%">
+                      </div>
+
+                      <div class="mySlides fade">
+                        <img src="assets/screenshots/drizzy6-removebg-preview.png" style="width:100%">
+                      </div>
+
+                      <div class="mySlides fade">
+                        <img src="assets/screenshots/drizzy7-removebg-preview.png" style="width:100%">
+                      </div>
+
+                      <div class="mySlides fade">
+                        <img src="assets/screenshots/drizzy8-removebg-preview.png" style="width:100%">
+                      </div>
+                    
+                </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                      <span class="dot"></span> 
+                      <span class="dot"></span> 
+                      <span class="dot"></span> 
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                      <span class="dot"></span>
+                    </div>
+
+                    <script>
+                        let slideIndex = 0;
+                        showSlides();
+                        
+                        function showSlides() {
+                          let i;
+                          let slides = document.getElementsByClassName("mySlides");
+                          let dots = document.getElementsByClassName("dot");
+                          for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";  
+                          }
+                          slideIndex++;
+                          if (slideIndex > slides.length) {slideIndex = 1}    
+                          for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                          }
+                          slides[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " active";
+                          setTimeout(showSlides, 2000); // Change image every 2 seconds
+                        }
+                        </script>
+
+           </div>
+
+        <div id="lorem">
+            <ul class="features-list">
+                <li>• &nbsp; Guardian Safety</li><br/><br/>
+                <li>• &nbsp; Comfortable 24 Hours Slot System with Week days and Weekend options</li><br/><br/>
+                <li>• &nbsp; Choose the type of Vehicle you wanna learn with</li><br/><br/>
+                <li>• &nbsp; Professional Schedule of Each Day</li><br/><br/>
+                <li>• &nbsp; Tips and tricks of Learning</li><br/><br/>
+                <li>• &nbsp; Quick Booking System within Area</li><br/><br/>
+            </ul>
+        </div>
+
+        
+        </div>
+
+        <!-- code1-->
+    
+        <div class="download">
+             <div class="fourr"> 
+                <b><h1 id="twoo">Download The App Now!!</h1> </b>
+                <!-- <p class="threee">Lorem ipsum dolor sit amet,dgfthfth  consectetur adipiscing elit. Vestibulum molestie eros sit amet sapien efficitur, ut ultricies magna laoreet. Pellentesque eu interdum leo.</p> --><br/></div> 
+               <div class="mscreen"><img  src="./assets/MobileScreens.png" height="550" width="800" />
+            </div>
+                
+            
+            <div class="fivee"> <a href="https://www.instagram.com/drizzy.in"><img src="./assets/PlayStore.png" height="90" width="300"/></a></div>
+           <!-- </div>
+            <div class="sixx"><img src="./assets/images/Screenshot 2024-09-08 at 12.13.20 AM.png"height="80" width="290" />
+            </div>-->
+           
+    </div>
+
+    <!--genius me-->
+        <div class="partners">
+            <div class="oyea"><b><h1 class="ouchh"> FOLLOW US ON: </h1></div></b>
+            <div class="lid1">
+            <a href="https://www.instagram.com/drizzy.in"><img class="icons2" src="./assets/linkedin.png" width="50px" height="50px"> </a>
+            <a href="https://www.instagram.com/drizzy.in"><img src="./assets/insta.png" width="50px" height="50px"></a></div> 
+         </div>
+
+         <!--trainer-->
+
+         <div class="container1">
+           
+            <div class="heading-text">
+                <p style="font-size: 40px;">The widest Cult of<p>
+                <b style="font-size:40px;">Professional Drivers Trained</b>
+                <p style="margin-left:10px;margin-right:23px;font-size:25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie eros sit amet sapien efficitur, ut ultricies magna laoreet. Pellentesque eu interdum leo. Quisque porta ligula ut eleifend laoreet.</p>
+            </div>
+
+            <!--trainer1-->
+
+            <div class="box-1">
+                <div class="box-text">
+                    <br><br><br><br><br>
+                    <br><br><br><br><br>
+                    <br><br><br/>
+                    <h1 style="margin-bottom: 10px; margin-top:80px;">DRIVER FIRST</h1>
+                    <h4 style="text-align:center; margin-left: 34px; margin-top: 0px; margin-right: 80px; align-items: center;">4 YEAR EXPERIENCE &nbsp;  
+                        <img class="star" src="assets/star.svg" alt="star">4.3</h4>
+                    <p style="margin-left:15px; margin-right: 15px;">Lorem ipsum dolor sit amet, nnnnn consectetur adipiscing elit. Quisque auctor aliquam velit</p>
+                </div>
+            </div>
+
+            <!--trainer2-->
+
+            <div class="box-1">
+                <div class="box-text">
+                    <br><br><br><br><br>
+                    <br><br><br><br><br>
+                    <br><br><br>
+                    <h1 style="margin-bottom: 10px; margin-top:80px">DRIVER FIRST</h1>
+                    <h4 style="text-align: left; margin-left: 80px; margin-top: 0px; margin-right: 5px; align-items: center;">4 YEAR EXPERIENCE &nbsp;  
+                        <img class="star" src="assets/star.svg" alt="star">4.3</h4>
+                    <p style="margin-left: 15px; margin-right: 15px;">Lorem ipsum dolor sit amet, nnnnn consectetur adipiscing elit. Quisque auctor aliquam velit</p>
+                </div>
+            </div>
+
+            <!--trainer3-->
+
+            <div class="box-1">
+                <div class="box-text">
+                    <br><br><br><br><br>
+                    <br><br><br><br><br>
+                    <br><br><br>
+                    <h1 style="margin-bottom: 10px; margin-top:80px">DRIVER FIRST</h1>
+                    <h4 style="text-align: left; margin-left: 80px; margin-top: 0px; margin-right: 5px; align-items: center;">4 YEAR EXPERIENCE &nbsp;  
+                        <img class="star" src="assets/star.svg" alt="star">4.3</h4>
+                    <p style="margin-left: 15px; margin-right: 15px;">Lorem ipsum dolor sit amet, nnnnn consectetur adipiscing elit. Quisque auctor aliquam velit</p>
+                </div>
+            </div>
+        </div>
+
+         
+            
+        
+    
+    <!--code2-->
+
+    <div class="dedicated1">
+
+    </div>
+        
+        <!--code3-->
+        
+        
+            <div class="left">
+                <div class="chatbox"><iframe class="chat" src="https://links.collect.chat/66c25dcec7ec3e97bdf85208"  width="430" height="560" frameBorder="0"></iframe><script async type="text/javascript" src="https://collectcdn.com/embed.js"></script></div>
+                <div class="one"> 
+                    <h1 class="two"> Start your journey</h1>
+                    <h1 class="three"> Book a Trainer</h1><br/>
+                    <img class="suri" src="./assets/BookDriver.png" />
+                </div>
+            </div>
+
+            <!--code4-->
+
+            <div class="check">
+                <div class="wsdriv">
+                    <p class="widest">The widest Range of Drivers</p>
+                   <b><p class="skilled"> Skilled and dedicated Drivers</p></b> 
+                <p class="textlor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie eros sit amet sapien efficitur, ut ultricies magna laoreet. Pellentesque eu interdum leo. Quisque porta ligula ut eleifend laoreet.</p><br/>
+               </div>
+               <div class="boxx1"><img class="box-stars20" src="assets/stars/2star.svg">
+                <p class="box-text20" style="font-family: Open Sans;"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie eros sit amet sapien efficitur</b></p>
+                
+                <img class="box-image20" src="assets/driver.png">
+                <h1 class="box-heading20">Sidhant Malik</h1>
+                
+                <p class="box-location-text20">Delhi, India</p>
+                <img class="box-location20" src="assets/location.svg">
+            </div>
+               
+                <div class="boxx2"><img class="box-stars20" src="assets/stars/2star.svg">
+                <p class="box-text20" style="font-family: Open Sans;"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie eros sit amet sapien efficitur</b></p>
+                
+                <img class="box-image20" src="assets/driver.png">
+                <h1 class="box-heading20">Sidhant Malik</h1>
+                
+                <p class="box-location-text20">Delhi, India</p>
+                <img  class="box-location20" src="assets/location.svg">
+            </div>
+
+               
+                <div class="boxx3"><img class="box-stars20" src="assets/stars/2star.svg">
+                <p class="box-text20" style="font-family: Open Sans;"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie eros sit amet sapien efficitur</b></p>
+                
+                <img class="box-image20" src="assets/driver.png">
+                <h1 class="box-heading20">Sidhant Malik</h1>
+                
+                <p class="box-location-text20">Delhi, India</p>
+                <img class="box-location20" src="assets/location.svg"></div>
+               
+               
+                
+              <!--<div class="box-11">
+                <img class="box-stars20" src="assets/stars/2star.svg">
+                <p class="box-text20" style="font-family: Open Sans;"><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie eros sit amet sapien efficitur</b></p>
+                
+                <img class="box-image20" src="assets/driver.png">
+                <h1 class="box-heading20">Sidhant Malik</h1>
+                <img class="box-location20" src="assets/location.svg">
+                <p class="box-location-text20">Delhi, India</p>
+                
+            </div>--> 
+            </div>
+
+            
+
+          
+        
+        <!--code5-->
+        
+        <footer>
+            <div id="contact-uss" class="footer"> 
+
+    <div class="box1">
+        
+      <p class="driving">Driving Made Easy</p>
+      <p class="now"> Download Drizzy Now!!<br/></p>
+    
+    <img class="logo" src="./assets/drive.png">
+</div>
+   
+<div class="div">
+     <ul>
+        <h2 class="explore">Explore</h2>
+        <li><a  style="margin-left: -15px"; class="home" href="#navbar">Home</a></li><br/>
+        <li><a  style="margin-left: -15px"; class="About " href="./privacy.html">Privacy Policy</a></li><br/>
+        <li><a  style="margin-left: -15px"; class="get-appp" href="./terms.html">Terms & Conditions</a></li><br/>
+        <li><a  style="margin-left: -15px"; class="sign" href="./refund.html">Refund & Cancellation</a></li><br/>
+     </ul>
+
+</div>
+    <div class="contact">
+        <ul class="list">
+            <h2 >Contact Us</h2>
+            <li style="margin-left: 33px";>+91 70420 09908</li><br/>
+            <li style="margin-left: 33px";>email23@gmail.com</li><br/>
+            <li style="margin-left: 33px";>ABC/123,Street 1,</li><br/>
+            <li style="margin-left: 33px";>Kalkaji,New Delhi-10058</li>
+        </ul>
+    </div>
+    </div>
+
+
+</div>
+<div class="footer-bottom">
+    <div class="all" style="margin-left: 90px;">© 2021 All Rights Reserved</div>
+    <!-- <div class="icons">
+            <img class="linkedin" src="./assets/linkedin.png">
+           <a href="https://www.instagram.com/drizzy.in"> <img class="insta" src="./assets/insta.png"></a>
+        </div>"-->   
+</div>
+        
+</footer>
+    
+</div>
+
+</body>
+
+   
+

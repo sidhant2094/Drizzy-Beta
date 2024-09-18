@@ -1,0 +1,81 @@
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+
+    /* Adjust font sizes for smaller screens */
+    .h1{
+        margin: 20px;
+        font-size: 75px;
+    }
+    h2{
+        font-size: 65px;
+    }
+    h3{
+        font-size: 50px;
+    }
+    .para1 {
+       font-size: 40px; 
+    }
+    .ol-list-terms{
+        font-size: 40px;
+    }
+    li {
+        font-size: 40px;
+    }
+    .container{
+        display:flex;
+        flex-direction: column;
+    }
+    .content{
+        margin-top: 50px;
+        margin-left: 75px;
+        margin-right: -700px;
+    }
+    .logoo{
+        margin-top: 45px;
+        margin-left: 75px;
+        width: 200px;
+        height: 200px;
+    }
+    .contactus{
+        margin-left: 100px;
+        margin-top: 415px;
+        font-size: 50px;
+
+        
+    }
+    .pics{
+        margin-top: 140px;
+        margin-left: 100px;
+    }
+    .get-app{
+        text-decoration:none;
+        margin-left: 10px;
+        height: 100px;
+        width: auto;
+    }    
+    .navbar{
+        display: flex;
+        align-items: center; /* Aligns items vertically in the center */
+        justify-content: space-between; 
+    }
+    .xpx{
+        margin-top: 100px;
+        display: flex;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+    footer{
+        margin: 20px;
+        color:white;
+        display:flex;
+        justify-content:flex-start;
+        align-items:flex-start;
+        font-family:Open Sans;
+        }
+}
+
+
+
+
+
